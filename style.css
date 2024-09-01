@@ -1,0 +1,91 @@
+.Container{
+    width: 1340px;
+    margin: auto;
+}
+.banner{
+    background-image: url(resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    height: 600px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+
+}
+.banner{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.main-title{
+    font-family: 'Merriweather';
+font-weight: 400;
+font-size: 35px;
+
+color: #FFFFFF;
+}
+.title{
+    padding-top: -40px;
+    text-align: center;
+font-family: 'Merriweather';
+font-weight: 900;
+font-size: 50px;
+
+color: #FFFFFF;
+}
+.off{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    color: #ff0000;
+}
+.deals{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 22px;
+    color: #ff0000; 
+}
+.categories{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 30px;
+    color: #070211; 
+}
+.part2{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+.part2-img{
+    padding-bottom: 50px;
+}
+.part3{
+    background-image: url(resources/Vectorrr.png);
+    background-repeat:no-repeat;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 40px;
+    gap: 40px;
+    
+}
+.party-title{
+    font-family: 'Merriweather';
+font-weight: 900;
+font-size: 50px;
+
+color: #FFFFFF;
+}
+.part-description{
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 20px;
+    color: beige;
+
+}
+
+    
+   
+
+.party{
+    margin: 40px;
+}
