@@ -1,91 +1,208 @@
-.Container{
-    width: 1340px;
-    margin: auto;
+.Container {
+  width: 1340px;
+  margin: auto;
 }
-.banner{
-    background-image: url(resources/Banner\ Image.png);
-    background-repeat: no-repeat;
-    height: 600px;
-    margin-top: 40px;
-    background-repeat: no-repeat;
+.banner {
+  background-image: url(resources/Banner\ Image.png);
+  background-repeat: no-repeat;
+  height: 600px;
+  margin-top: 40px;
+  background-repeat: no-repeat;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-title {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 35px;
 
+  color: #ffffff;
 }
-.banner{
-    display: flex;
-    justify-content: center;
-align-items: center;
-}
-.main-title{
-    font-family: 'Merriweather';
-font-weight: 400;
-font-size: 35px;
+.title {
+  padding-top: -40px;
+  text-align: center;
+  font-family: "Merriweather";
+  font-weight: 900;
+  font-size: 50px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
-.title{
-    padding-top: -40px;
-    text-align: center;
-font-family: 'Merriweather';
-font-weight: 900;
-font-size: 50px;
+.off {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff0000;
+}
+.deals {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 22px;
+  color: #ff0000;
+}
+.categories {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 30px;
+  color: #070211;
+}
+.part2 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.part2-img {
+  padding-bottom: 50px;
+}
+.part3 {
+  background-image: url(resources/Vectorrr.png);
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+  gap: 40px;
+}
+.party-title {
+  font-family: "Merriweather";
+  font-weight: 900;
+  font-size: 50px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
-.off{
-    font-family: 'Inter';
-    font-weight: 700;
-    font-size: 45px;
-    color: #ff0000;
+.part-description {
+  font-family: "Merriweather";
+  font-weight: 400;
+  font-size: 20px;
+  color: beige;
 }
-.deals{
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 22px;
-    color: #ff0000; 
+.party {
+  margin: 40px;
 }
-.categories{
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 30px;
-    color: #070211; 
-}
-.part2{
-    text-align: center;
-    padding-bottom: 20px;
-
-}
-.part2-img{
-    padding-bottom: 50px;
-}
-.part3{
-    background-image: url(resources/Vectorrr.png);
-    background-repeat:no-repeat;
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 40px;
-    gap: 40px;
-    
-}
-.party-title{
-    font-family: 'Merriweather';
-font-weight: 900;
-font-size: 50px;
-
-color: #FFFFFF;
-}
-.part-description{
-    font-family: 'Merriweather';
-    font-weight: 400;
-    font-size: 20px;
-    color: beige;
-
+.join-now {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 20px;
+  color: beige;
 }
 
-    
-   
-
-.party{
-    margin: 40px;
+.part3-title {
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+  margin-top: 120px;
+  background-color: rgb(255, 182, 182);
+  border-radius: 10px;
+  width: 1320px;
+  height: 602px;
+}
+.title3 {
+  height: 602px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.title1,
+.main-title {
+  color: #070211;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 42px;
+}
+.title1 {
+  padding-bottom: 70px;
+}
+.time,
+.td {
+  color: #ff0000;
+}
+.btn {
+  margin-top: 40px;
+  padding: 9px 32px;
+  color: #ffffff;
+  background-color: #ff00d4;
+  border-radius: 5px;
+}
+.section1-title {
+}
+.part-5 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 30px;
+  padding-top: 120px;
+}
+.section1-title {
+  font-family: "Inter";
+  font-size: 28px;
+  font-weight: 500px;
+  color: #ff0000;
+  padding: 0 0 25px 0;
+}
+.comming-soon {
+  font-family: "Merriweather";
+  font-size: 40px;
+  font-weight: 500px;
+}
+img {
+  width: 270px;
+}
+.description,
+.title-description {
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 300px;
+  color: #3d3d3d76;
+}
+.s-4-p img {
+  width: 100px;
+}
+.section3-title {
+  font-family: "Inter";
+  font-size: 38px;
+  font-weight: 700px;
+  color: #ff0000;
+}
+.s-4-p {
+  padding-bottom: 20px;
+}
+.newsletter {
+  text-align: center;
+  margin: 70px 0;
+  background-color: rgb(255, 182, 182);
+  border-radius: 5px;
+  padding: 50px;
+}
+.newsletter img {
+  width: 140px;
+}
+.newsletter h2 {
+  font-size: 48px;
+  font-weight: 900;
+}
+.newsletter p {
+  font-size: 20px;
+  font-family: "Inter";
+}
+.newsletter div input,
+.newsletter div button {
+  padding: 15px;
+}
+.newsletter input {
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-right: 0;
+  width: 280px;
+}
+.newsletter button {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-left: -4px;
+  border-left: 0px;
+  width: 110px;
+  color: #fff;
+  background-color: #ff0000;
 }
